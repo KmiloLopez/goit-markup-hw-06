@@ -14,8 +14,8 @@ color: #212121;
    
 .button-mainpage {
     
-    width: 197px;
-height: 30px;
+    width: 297px;
+height: 50px;
 align-items: center;
 font-family: inherit;
 font-style: normal;
@@ -26,6 +26,11 @@ line-height: 30px;
 
 text-align: center;
 letter-spacing: 0.06em;
+background-color: #2196F3;
+color: #FFFFFF;
+border-width: 0px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 
 
      
@@ -34,9 +39,9 @@ letter-spacing: 0.06em;
 
 
 .button-mainpage:hover {
-    color: #FFFFFF;
+    color: black;
     cursor: pointer;
-    background-color: #2196F3;
+    background-color: #FFFFFF;
     
 }
 .button-mainpage:focus {
@@ -86,7 +91,7 @@ text-decoration: none;
 color: rgba(255, 255, 255, 0.6);
 background: #2F303A;
 
-margin: 0% auto 2px 215px ;
+margin: 0% auto 2px 0px ;
 /*margin-left: 215px;
 margin-bottom: 2px;*/
 }
@@ -99,7 +104,7 @@ margin-bottom: 2px;*/
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     background: #2F303A;
-    margin: 0% auto 60px 215px;
+    margin: 0% auto 60px 0px;
     /*margin-left: 215px;
     margin-bottom: 60px;*/
     }
@@ -148,25 +153,7 @@ color: #FFFFFF
     cursor: pointer;
     color: #2196F3;
 }
-.enlaces:hover {
-    color: #2196F3;
-    cursor: pointer;
-}
-.enlaces:focus {
-    color: black;
-    text-decoration: none;
-    
-}
-.enlaces {
-    text-decoration: none;
-    
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: inherit ;
-}
+
 
 .logos-page {
     color: #2196F3;
@@ -188,10 +175,12 @@ color: #FFFFFF
     color: black;
     
 }
+
 .portfolio-buttons-first:hover {
     background-color: #2196F3;
     color: #FFFFFF;
     border-color: #2196F3;
+    
 }
 .portfolio-buttons-first:focus {
     background-color: #2196F3;
@@ -250,6 +239,10 @@ letter-spacing: 0.03em;
 
 
 cursor: pointer;
+
+border-color: #F5F4FA;
+border-radius: 4px;
+border-style: none;
 }
 .portfolio-buttons-second {
     width: 128px;
@@ -268,6 +261,9 @@ letter-spacing: 0.03em;
 
 
 cursor: pointer;
+border-color: #F5F4FA;
+border-radius: 4px;
+border-style: none;
 }
 .portfolio-buttons-third {
     width: 145px;
@@ -286,6 +282,9 @@ letter-spacing: 0.03em;
 
 
 cursor: pointer;
+border-color: #F5F4FA;
+border-radius: 4px;
+border-style: none;
 }
 .portfolio-buttons-fourth {
     width: 103px;
@@ -304,6 +303,9 @@ letter-spacing: 0.03em;
 
 
 cursor: pointer;
+border-color: #F5F4FA;
+border-radius: 4px;
+border-style: none;
 }
 .portfolio-buttons-fith {
     width: 130px;
@@ -322,6 +324,9 @@ letter-spacing: 0.03em;
 
 
 cursor: pointer;
+border-color: #F5F4FA;
+border-radius: 4px;
+border-style: none;
 }
 
 .roboto-five-hundred {
@@ -352,7 +357,6 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
-background-color: #2F303A;
 margin-bottom: 30px;
 margin-top: 0%;
 }
@@ -368,6 +372,7 @@ text-transform: uppercase;
 
 }
 .margings{
+    justify-content: space-between;
     margin-bottom: 94px;
 }
 .text-inpic{
@@ -380,7 +385,7 @@ text-transform: uppercase;
     justify-content: center;
         color: white;
     position: absolute;
-    top: 1648px;
+    top: 1495px;
     /* top: 1405px;
     left: 300px;  */
     width: 373px;
@@ -450,7 +455,7 @@ color: #212121;
     
     box-sizing:content-box;
     
-    width: 1600px;
+    
     height: auto;
         
   
@@ -458,6 +463,7 @@ color: #212121;
     
 
 }
+
 .description {
     
 font-style: normal;
@@ -470,10 +476,9 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #757575;
-gap: 37px;
+/* gap: 37px; */
 margin-bottom: 94px;
-
-
+justify-content: space-between;
 }
 .tittles-portfolio { 
     
@@ -506,7 +511,7 @@ border-radius: 0px 0px 4px 4px;
 .card {
     width: 370px;
     height: 404px;
-    margin-bottom: 20;
+    margin-bottom: 30px;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
@@ -522,8 +527,8 @@ border-radius: 0px 0px 4px 4px;
 .ghost-p{
    
     transition-property: top;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out; 
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ; 
     display: flex;
    /* top:250px; */
    position: relative;
@@ -574,7 +579,8 @@ font-weight: 400;
 line-height: 28px;
 letter-spacing: 0.03em;
    transition-property: top;
-   transition-duration: 0.5s;
+   transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ; 
    display: flex;
    align-items: center;
    padding-left: 24px;
@@ -599,7 +605,8 @@ top: 0px;
 } 
 .ghost-p3{
     transition-property: top;
-    transition-duration: 0.5s;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ; 
     display: flex;
     padding-left: 24px;
     padding-right: 24px;
@@ -618,19 +625,7 @@ top: 0px;
     overflow: hidden;
     
 }
-.card-content{
-    
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
 
-letter-spacing: 0.03em;
-
-color: #757575
-
-}
 .card-one:hover {
     cursor: pointer;
     background: #FFFFFF;
@@ -697,7 +692,7 @@ line-height: 24px;
 letter-spacing: 0.03em;
 background-color: #2F303A;
 color: #FFFFFF;
-margin:0% auto 2px 215px;
+margin:0% auto 2px 0px;
 /*margin-left: 215px;
 margin-bottom: 2px;*/
 display: flex;
@@ -709,10 +704,11 @@ width: 231px;
 
 .centeringthis{
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-between;
+    /* gap: 30px; */
+    
     margin-top: 44px;
-    margin-bottom: 151px;
+    margin-bottom: 0px;
 }
 .container{
     /* box-sizing: border-box; no necesario  cuando usamos display flex*/
@@ -724,8 +720,7 @@ width: 231px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 0%;
-    
-    
+       
 }
 .logos-clientes-box{
     display: flex;
@@ -756,12 +751,12 @@ border-radius: 4px;
 .third-elemen{
     margin-right: 30px;
 }
-.first-image{
+/* .first-image{
     margin-right: 30.26px;
 }
 .second-image{
     margin-right: 23.42px;
-}
+} */
 .big-box{
     display: flex;
     box-sizing:content-box;
@@ -795,14 +790,12 @@ border-radius: 4px;
     display: flex;
     flex-direction: column;
 }
-.show-inline{
-    display: flex;
-    margin:0%;
-    padding: 0%;
-   
-    
+
+.ul-box{
+    justify-content: space-between;
+    min-width: 293px;
 }
-.first-link{
+/* .first-link{
     padding: 0% 0%;
     margin-left: 0px;
     margin-right: 50px;
@@ -816,7 +809,7 @@ border-radius: 4px;
     padding: 0% 0%;
     
     
-}
+} */
 .phone-contact{
     margin-left: 10px;
 }
@@ -849,23 +842,37 @@ border-radius: 4px;
     
     box-sizing:content-box;
     
-    width: 1600px;
+    /* width: 1600px; */
     height: 252px;
     background-color: #2F303A;
     
   
-    margin: 0% auto 55px auto;
+    margin: 151px auto 0px auto;
+    
 
 }
-/*.circular-container :hover{
-   
-    background: #2196F3(255, 255, 255, 0.1);
-    color: #FFFFFF;
-    cursor: pointer;
-    background-color: #2196F3;
-   
-   
-}*/
+.container-bottom-box{
+    /* box-sizing: border-box; no necesario  cuando usamos display flex*/
+    
+    display: flex;
+    width: 1200px;
+    height: auto;
+    padding: 0% 0%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0%;
+    
+       
+}
+/* .bottomsection{
+    
+    box-sizing:content-box;
+    display: flex;
+    width: 1600px;
+    height: 252px;
+    margin: 151px auto 0px auto;
+} */
+
 .circular-container{
     display: flex;
         justify-content: center;
@@ -963,6 +970,7 @@ border-radius: 4px;
         
     }
 
+
 .image-size-one{
     font-size: 40px;
     fill: #FFFFFF;
@@ -990,14 +998,15 @@ justify-content: center;
 
 .logos-gap{
     padding-top: 60px;
-    padding-left: 215px;
+    padding-left: 0px;
     margin: 0% 0% 9px 0%;
 }
 .align-to-container{
     justify-content: center;
     margin-bottom: 50px;
-    gap:8px;
+    gap:8px; 
     margin-top: 106px;
+    
     
 }
 .align-to-container li{
@@ -1014,10 +1023,26 @@ justify-content: center;
     margin-left: auto;
     margin-top: 0%;
     flex-wrap: wrap;
-    gap: 30px;
-    margin-bottom: 82px;
+    /* gap: 30px; */
+    
+    justify-content: space-between;
+     
     
 }
+.card-content{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+    list-style-type: none;
+    
+    }
 .container-box{
     /* box-sizing: border-box; no necesario  cuando usamos display flex*/
     
@@ -1040,6 +1065,7 @@ justify-content: center;
     justify-content: center;
     background: #F5F4FA;
 border-radius: 4px;
+margin-bottom: 30px;
 }
 /* ACA AGREGAMOS STYLES.CSS PARA CONTACTS TAB */
 form {
@@ -1051,14 +1077,20 @@ form {
     
     width: 528px;
     height: 581px;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     margin-bottom: 100px;
+    margin-top: 141px;
+
+    background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
     
   }
   .form-section{
-    width: 100vh;
-    margin-left: auto;
-    margin-left: auto;
+    display: flex;
+    justify-content: center;
+   /*  margin-left: auto;
+    margin-right: auto; */
   }
   .rowline{
     display: flex;
@@ -1087,6 +1119,296 @@ color: #212121;
     padding-bottom: 12px; */
     margin-bottom: 10px;
     margin-top: 4px;
+  }
+  #nombre{
+    
+    margin-bottom: 10px;
+    margin-top: 4px;
+
+    border-color: #212121;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+  }
+  #nombre:hover{
+    border: 1px solid #2196F3;
+border-radius: 4px;
+    border-color: #2196F3;
+  }
+  #telefono{
+    margin-bottom: 10px;
+    margin-top: 4px;
+
+    border-color: #212121;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+  }
+  #telefono:hover{
+    border: 1px solid #2196F3;
+border-radius: 4px;
+    border-color: #2196F3;
+  }
+  #correo{
+    margin-bottom: 10px;
+    margin-top: 4px;
+
+    border-color: #212121;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+  }
+  #correo:hover{
+    border: 1px solid #2196F3;
+border-radius: 4px;
+    border-color: #2196F3;
+  }
+  .container-comments{
+    display: flex;
+    flex-direction: column;
+  }
+ #comentarios:hover{
+    border: 1px solid #2196F3;
+border-radius: 4px;
+    border-color: #2196F3;
+ }
+  .icon-equis2 {
+    display: flex;
+    fill: #000000
+    /* justify-content: flex-end; */
+  }
+  .circular-container-equis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   /*  width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1); */
+    width: 30px;
+    height: 30px;
+    /* background-color: #212121; */
+    
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+  }
+  ./* otherr{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 150px;
+  } */
+  
+   .newwcontainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+
+  } 
+  .rowline{
+    padding-left: 52px;
+    padding-right: 52px;
+
+  }
+  .rowline >p{
+    margin-left: 8.38px;
+  }
+  .submit-button{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+    background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: #FFFFFF;;
+border-color: #2196F3;
+  }
+  .submit-button:hover{
+    
+cursor: pointer;
+    background: #188CE8;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; */
+  }
+.align-button{
+    
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .container li{
+    list-style-type: none;
+  }
+  .container-card-first-section {
+    box-sizing: border-box;
+    width: 270px;
+  }
+
+  .show-inline{
+    display: flex;
+    margin:0%;
+    padding: 0%;
+    
+   
+    
+}
+.show-inline li{
+    list-style-type: none;
+    /* position: relative; */
+    
+    
+}
+.enlaces:hover {
+    color: #2196F3;
+    cursor: pointer;
+    
+}
+/* .enlaces:hover  .nav-underline a::after{
+    content: "";
+    background-color: #2196F3;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    margin-top: 25px;
+    height: 4px;
+    border-radius: 2px;
+    
+} */
+
+
+.enlaces:focus {
+    color: black;
+    text-decoration: none;
+    
+}
+.enlaces {
+    text-decoration: none;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: inherit ;
+}
+/* .show-inline li::after{
+    content: "aa";
+    background-color: #212121;
+    width: 100%; 
+     height: 100%;  
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    width: auto;
+} */
+/* .show-inline a{
+    list-style-type: none;
+    position: relative;
+}
+.enlaces a::after{
+    content: "aa";
+    background-color: #212121;
+   /*  width: 100%; */
+    /* height: 100%;  
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    width: auto;
+} */
+
+.space-betw{
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+.secundary-container{
+    display: flex;
+    min-width: 928px;
+}
+.row-row{
+    display: flex;
+
+}
+ .nav-underline a::after{
+    content: "";
+    background-color: #2196F3;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    margin-top: 25px;
+    height: 4px;
+    border-radius: 2px;
+    opacity: 0;
+
+} 
+.nav-underline a:hover::after{
+    opacity: 1;
+}
+/* .nav-underline a.selected::after{
+    opacity: 1;
+} */
+.nav-underline a{
+   position: relative;
+
+}
+.nav-underline a.selected::after{
+   
+    opacity: 1;
+}
+
+
+
+.top-margin{
+    margin-top: 20px;
+
+}
+
+/* ACA AGREGAMOS STYLES.CSS PARA CONTACTS TAB */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+  }
+ 
+  
+  .rowline{
+    display: flex;
+
+  }
+  .center-tittle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.03em;
+
+color: #212121;
+  }
+  #comentarios{
+    /* padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px; */
+    margin-bottom: 10px;
+    margin-top: 4px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
   }
   #nombre{
     margin-bottom: 10px;
@@ -1128,11 +1450,11 @@ color: #212121;
     margin-top: 8px;
     margin-bottom: 2px;
   }
-  .otherr{
+   .otherr{
     display: flex;
     justify-content: flex-end;
-    margin-top: 150px;
-  }
+    margin-top: 8px;
+  } 
   
    .newwcontainer{
     display: flex;
@@ -1164,3 +1486,23 @@ color: #212121;
     justify-content: center;
     /* align-items: center; */
   }
+  .container li{
+    list-style-type: none;
+  }
+  .container-card-first-section {
+    box-sizing: border-box;
+    width: 270px;
+  }
+  .space-betw{
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+.secundary-container{
+    display: flex;
+    min-width: 928px;
+}
+.row-row{
+    display: flex;
+
+}

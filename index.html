@@ -2,6 +2,10 @@
 <html>
 
 <head>
+  <!-- normalizador -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+
   <link rel="stylesheet" href="./css/styles.css">
   <meta charset="utf=8" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,24 +16,56 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-  <!-- normalizador -->
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+  
   <!-- link to icons -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HW4</title>
+  <title>HW5</title>
 
   <link rel="stylesheet" href="https://i.icomoon.io/public/temp/44aafbfe35/UntitledProject/style-svg.css">
   <script defer src="https://i.icomoon.io/public/temp/44aafbfe35/UntitledProject/svgxuse.js"></script>
 
 <body class="main-font-roboto-fourhundred">
-  <header class="container align-all">
+
+  <header class="container space-betw top-margin">
+    <a class="logos-page" href="https://www.figma.com/file/PbLsPaq3rqdlmDubktEo3F/Web-Studio-Project?node-id=0%3A1">
+      <h3 class="texty">WebStudio</h3>
+    </a>
+    <div class="space-betw secundary-container">
+      <nav class="roboto-five-hundred">
+        <!-- La navegación а otros sitios -->
+        <ul class="show-inline nav-underline ul-box">
+      
+          <li><a class="enlaces selected" href="index.html">Study</a></li>
+          <li><a class="enlaces " href="portfolio.html">Portfolio</a></li>
+          <li><a class="enlaces " href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="row-row">
+        <div class="contacts-top">
+          <p class="contacts-top phone-contact">info@devstudio.com</p>
+          <svg class="icon6" width="16" height="12">
+            <use href="./images/icons.svg#icon-sobre-activable"></use>
+          </svg> 
+        </div>
+        <div class="contacts-top">
+          <p class="contacts-top phone-contact">+52 55 5529 6000</p>
+          <svg class="icon5" width="10" height="16">
+            <use href="./images/icons.svg#icon-telfono-inteligente"></use>
+          </svg>
+        
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- <header class="container align-all">
     <a class="logos-page" href="https://www.figma.com/file/PbLsPaq3rqdlmDubktEo3F/Web-Studio-Project?node-id=0%3A1">
       <h3 class="texty">WebStudio</h3>
     </a>
     <nav class="roboto-five-hundred">
-      <!-- La navegación а otros sitios -->
+     
       <ul class="show-inline">
+        
         <li><a class="enlaces first-link" href="index.html">Study</a></li>
         <li><a class="enlaces second-link" href="portfolio.html">Portfolio</a></li>
         <li><a class="enlaces third-link" href="contact.html">Contact</a></li>
@@ -50,7 +86,7 @@
       </svg>
      
     </div>
-  </header>
+  </header> -->
 
 
   <main class="big-box background-imagee">
@@ -62,81 +98,83 @@
   <section>
    
     <div class="container centeringthis"> 
-       <div class="logos-firstt-box">
-         <svg class="icon3" width="106" height="70">
-           <use href="./images/icons.svg#icon-Antena"></use>
-         </svg>
+       <div class="container-card-first-section">
+         <div class="logos-firstt-box">
+           <svg class="icon3" width="106" height="70">
+             <use href="./images/icons.svg#icon-Antena"></use>
+           </svg>
+         
+         </div>
+         <article>
+          <h3 class="tittles-middle-page">ATENCIÓN A LOS DETALLES</h3>
+          <p>
+            Nos adentramos en todos los detalles y procesos de su negocio,
+            para así desarrollar una solución a su medida.
+          </p>
+               </article>
        </div>
+
      
      
-       <div class="logos-firstt-box">
-         <svg class="icon3" width="106" height="70">
-           <use href="./images/icons.svg#icon-Reloj"></use>
-         </svg>
+       <div class="container-card-first-section">
+         <div class="logos-firstt-box">
+           <svg class="icon3" width="106" height="70">
+             <use href="./images/icons.svg#icon-Reloj"></use>
+           </svg>
+         </div>
+         <article>
+          <h3 class="tittles-middle-page">PUNTUALIDAD</h3>
+          <p>
+            Con nosotros, usted puede sentirse seguro y protegido. Un
+            principio importante de la empresa: respetar su tiempo y respetar
+            los plazos acordados.
+          </p>
+        </article>
        </div>
     
-       <div class="logos-firstt-box">
-         <svg class="icon3" width="106" height="70">
-           <use href="./images/icons.svg#icon-diagrama"></use>
-         </svg>
+       <div class="container-card-first-section">
+         <div class="logos-firstt-box">
+           <svg class="icon3" width="106" height="70">
+             <use href="./images/icons.svg#icon-diagrama"></use>
+           </svg>
+         </div>
+         <article>
+          <h3 class="tittles-middle-page">PLANIFICACIÓN</h3>
+          <p>
+            Usted podrá observar y participar en cada fase del desarrollo y
+            aplicación de soluciones.
+          </p>
+        </article>
        </div>
      
-       <div class="logos-firstt-box">
-         <svg class="icon3" width="106" height="70">
-           <use href="./images/icons.svg#icon-astronauta"></use>
-         </svg>
+       <div class="container-card-first-section">
+         <div class="logos-firstt-box">
+           <svg class="icon3" width="106" height="70">
+             <use href="./images/icons.svg#icon-astronauta"></use>
+           </svg>
+         </div>
+         <article>
+          <h3 class="tittles-middle-page">TEGNOLOGÍA MODERNA</h3>
+          <p>
+            Usamos herramientas innovadoras para resolver las tareas
+            asignadas. Es hora de simplificar los procesos laborales.
+          </p>
+        </article>
        </div>
+
      </div>
  
 </section>
 <!-- FIN primera seccion de la pg -->
-  <ul class="container">
-    <li class="fist-element">
-      <article>
-        <h3 class="tittles-middle-page">ATENCIÓN A LOS DETALLES</h3>
-        <p>
-          Nos adentramos en todos los detalles y procesos de su negocio,
-          para así desarrollar una solución a su medida.
-        </p>
-      </article>
-    </li>
-    <li class="second-element">
-      <article>
-        <h3 class="tittles-middle-page">PUNTUALIDAD</h3>
-        <p>
-          Con nosotros, usted puede sentirse seguro y protegido. Un
-          principio importante de la empresa: respetar su tiempo y respetar
-          los plazos acordados.
-        </p>
-      </article>
-    </li>
-    <li class="third-elemen">
-      <article>
-        <h3 class="tittles-middle-page">PLANIFICACIÓN</h3>
-        <p>
-          Usted podrá observar y participar en cada fase del desarrollo y
-          aplicación de soluciones.
-        </p>
-      </article>
-    </li>
-    <li>
-      <article>
-        <h3 class="tittles-middle-page">TEGNOLOGÍA MODERNA</h3>
-        <p>
-          Usamos herramientas innovadoras para resolver las tareas
-          asignadas. Es hora de simplificar los procesos laborales.
-        </p>
-      </article>
-    </li>
-  </ul>
+  
   <section class="firstsect">
     <h2 class="tittles-imag">A qué nos dedicamos</h2>
     <ul class="container margings">
-      <li class="first-image">
+      <li>
         <img src="images/ipadkeyboardandpaper.jpg" alt="ipad keyboard and paper" width="373.16px" />
         <p class="text-inpic">APLICACIONES DE ESCRITORIO</p>
       </li>
-      <li class="second-image">
+      <li>
         <img src="images/laptopandsmartphone.jpg" alt="laptop and hand holding smartphone" width="373.16px" />
         <p class="text-inpic">APLICACIONES MÓVILES</p>
       </li>
@@ -373,57 +411,48 @@
  
 
   <footer class="bottom-box">
-    <div class="direction-footer"><a class="logos-page " href="http://">
-        <h3 class="logos-gap">WebStudio</h3>
-      </a>
-      <address class="address">Calz. Ticomán 500, Ciudad de México, CDMX, México</address>
-      <p class="contacts-bottom-one">info@example.com</p>
-      <p class="contacts-bottom-two">+52 55 5529 6000</p>
-    </div>
-    <div class="alighing">
-      <h4 class="font-bottom-en">ENCUENTRENOS EN</h4>
-      <!-- This is an SVG sprite that we added in its entirety and hidden visually. -->
-     
-
-
-      <div class="newalign">
-        <div class="circular-container">
-          <svg class="icon" width="20" height="20">
-            <!-- tamaño de la ventana de visualizacion se ajusta en view box y aca se modifica el tamaño de el svg-->
-            <use href="./images/icons.svg#icon-instagram22"></use>
-          </svg>
+    
+      <div class="container-bottom-box">
+        <div class="direction-footer"><a class="logos-page " href="http://">
+            <h3 class="logos-gap">WebStudio</h3>
+          </a>
+          <address class="address">Calz. Ticomán 500, Ciudad de México, CDMX, México</address>
+          <p class="contacts-bottom-one">info@example.com</p>
+          <p class="contacts-bottom-two">+52 55 5529 6000</p>
         </div>
-
-        <div class="circular-container">
-
-          <svg class="icon" width="20" height="20">
-            <!-- tamaño de la ventana de visualizacion se ajusta en view box y aca se modifica el tamaño de el svg-->
-            <use href="./images/icons.svg#icon-twitter22"></use>
-          </svg>
-
-        </div>
-
-        <div class="circular-container">
-
-          <svg class="icon" width="20" height="20">
-            <!-- tamaño de la ventana de visualizacion se ajusta en view box y aca se modifica el tamaño de el svg-->
-            <use href="./images/icons.svg#icon-facebook22"></use>
-          </svg>
-
-        </div>
-
-        <div class="circular-container">
-
-          <svg class="icon" width="20" height="20">
-            <!-- tamaño de la ventana de visualizacion se ajusta en view box y aca se modifica el tamaño de el svg-->
-            <use href="./images/icons.svg#icon-linkedin22"></use>
-          </svg>
-
+        <div class="alighing">
+          <h4 class="font-bottom-en">ENCUENTRENOS EN</h4>
+          <!-- This is an SVG sprite that we added in its entirety and hidden visually. -->
+        
+          <div class="newalign">
+            <div class="circular-container">
+              <svg class="icon" width="20" height="20">
+                <!-- tamaño de la ventana de visualizacion se ajusta en view box y aca se modifica el tamaño de el svg-->
+                <use href="./images/icons.svg#icon-instagram22"></use>
+              </svg>
+            </div>
+            <div class="circular-container">
+              <svg class="icon" width="20" height="20">
+                <!-- tamaño de la ventana de visualizacion se ajusta en view box y aca se modifica el tamaño de el svg-->
+                <use href="./images/icons.svg#icon-twitter22"></use>
+              </svg>
+            </div>
+            <div class="circular-container">
+              <svg class="icon" width="20" height="20">
+                <!-- tamaño de la ventana de visualizacion se ajusta en view box y aca se modifica el tamaño de el svg-->
+                <use href="./images/icons.svg#icon-facebook22"></use>
+              </svg>
+            </div>
+            <div class="circular-container">
+              <svg class="icon" width="20" height="20">
+                <!-- tamaño de la ventana de visualizacion se ajusta en view box y aca se modifica el tamaño de el svg-->
+                <use href="./images/icons.svg#icon-linkedin22"></use>
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
-
-
-    </div>
+    
 
   </footer>
 </body>
