@@ -861,6 +861,7 @@ border-radius: 4px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 0%;
+    align-items: baseline;
     
        
 }
@@ -1077,7 +1078,7 @@ form {
     
     width: 528px;
     height: 581px;
-    /* background-color: greenyellow; */
+    
     margin-bottom: 100px;
     margin-top: 141px;
 
@@ -1091,6 +1092,7 @@ border-radius: 4px;
     justify-content: center;
    /*  margin-left: auto;
     margin-right: auto; */
+    background-color: #F5F4FA;
   }
   .rowline{
     display: flex;
@@ -1129,11 +1131,13 @@ color: #212121;
     border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
   }
+
   #nombre:hover{
     border: 1px solid #2196F3;
 border-radius: 4px;
     border-color: #2196F3;
   }
+  
   #telefono{
     margin-bottom: 10px;
     margin-top: 4px;
@@ -1147,6 +1151,7 @@ border-radius: 4px;
 border-radius: 4px;
     border-color: #2196F3;
   }
+
   #correo{
     margin-bottom: 10px;
     margin-top: 4px;
@@ -1193,28 +1198,7 @@ border-radius: 4px;
     margin-top: 8px;
     margin-bottom: 2px;
   }
-  ./* otherr{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 150px;
-  } */
-  
-   .newwcontainer{
-    display: flex;
-    flex-direction: column;
-    padding-left: 40px;
-    padding-right: 40px;
-    
-
-  } 
-  .rowline{
-    padding-left: 52px;
-    padding-right: 52px;
-
-  }
-  .rowline >p{
-    margin-left: 8.38px;
-  }
+ 
   .submit-button{
     display: flex;
     width: 200px;
@@ -1379,10 +1363,9 @@ form {
   }
  
   
-  .rowline{
-    display: flex;
+ 
 
-  }
+  
   .center-tittle{
     display: flex;
     justify-content: center;
@@ -1472,13 +1455,7 @@ border-radius: 4px;
   .rowline >p{
     margin-left: 8.38px;
   }
-  .submit-button{
-    display: flex;
-    width: 200px;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-  }
+  
 .align-button{
     
     margin-bottom: 20px;
@@ -1506,3 +1483,118 @@ border-radius: 4px;
     display: flex;
 
 }
+.boletin{
+    display: flex;
+    color: #FFFFFF;
+/*      font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;  */
+text-transform: uppercase;
+margin-left: 93px;
+
+}
+#email-subscribe{
+    background: none; 
+    
+    border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+width: 358px;
+height: 50px;
+
+}
+#email-subscribe ::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 16px;
+} 
+
+#email-subscribe::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 16px;
+}
+.submit-button{
+    margin-top: 62px;
+    margin-left: 12px;
+}
+
+.icon-button-footer{
+    fill: #FFFFFF;
+    margin-left: 20px;
+}
+ .icons-form {
+    position: absolute;
+    fill: #000000;
+    margin-top: 28px;
+    margin-left: 15px;
+  } 
+ .icons-form-tel{
+    position: absolute;
+    fill: #000000;
+    
+    margin-left: 15px;
+    margin-top: 83px;
+    
+ }
+ .icons-form-email{
+    position: absolute;
+    fill: #000000;
+    
+    margin-left: 15px;
+    margin-top: 138px;
+    
+ }
+#nombre,#telefono,#correo::placeholder{
+    padding-left: 42px;
+ }
+  
+    
+/*  #telefono:hover >.icons-form-tel{
+    fill: #2196F3;
+   } */
+/* .xxx:hover .icons-form{
+    fill: #2196F3;
+    color: #188CE8;
+   }
+   .xxx:hover .icons-form-tel{
+    fill: #2196F3;
+    color: #188CE8;
+   }
+   .yyy:hover >.icons-form{
+    fill: #2196F3;
+    color: #188CE8;
+  } */
+
+/*   #nombre::selection{
+    
+       border: 1px solid rgb(166, 252, 5);
+border-radius: 4px;
+  }
+  #nombre:active{
+    
+    border: 1px solid rgb(166, 252, 5);
+border-radius: 4px;
+}
+#nombre::current{
+    
+    border: 1px solid rgb(166, 252, 5);
+border-radius: 4px;
+}
+#nombre textarea:focus{
+    
+    border: 1px solid rgb(166, 252, 5);
+border-radius: 4px;
+}
+
+#nombre:focus-visible{
+    border: #188CE8;
+    border-color: #188CE8;
+}
+
+#nombre input:focus-visible {
+    outline-offset: 0px;
+    border: #188CE8;
+    border-color: #188CE8;
+} */

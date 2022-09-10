@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf=8" />
         <link rel="stylesheet" href="./css/styles.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,34 +22,37 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     </head>
     <body class="">
-        <header class="container align-all">
-            <a class="logos-page" href="https://www.figma.com/file/PbLsPaq3rqdlmDubktEo3F/Web-Studio-Project?node-id=0%3A1">
-              <h3 class="texty">WebStudio</h3>
-            </a>
-            <nav class="roboto-five-hundred">
-              <!-- La navegación а otros sitios -->
-              <ul class="show-inline">
-                <li><a class="enlaces first-link" href="index.html">Study</a></li>
-                <li><a class="enlaces second-link" href="portfolio.html">Portfolio</a></li>
-                <li><a class="enlaces third-link" href="contact.html">Contact</a></li>
-              </ul>
-            </nav>
+      <header class="container space-betw top-margin">
+        <a class="logos-page" href="https://www.figma.com/file/PbLsPaq3rqdlmDubktEo3F/Web-Studio-Project?node-id=0%3A1">
+          <h3 class="texty">WebStudio</h3>
+        </a>
+        <div class="space-betw secundary-container">
+          <nav class="roboto-five-hundred">
+            <!-- La navegación а otros sitios -->
+            <ul class="show-inline nav-underline ul-box">
+          
+              <li><a class="enlaces " href="index.html">Study</a></li>
+              <li><a class="enlaces " href="portfolio.html">Portfolio</a></li>
+              <li><a class="enlaces selected" href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="row-row">
             <div class="contacts-top">
               <p class="contacts-top phone-contact">info@devstudio.com</p>
               <svg class="icon6" width="16" height="12">
-        
                 <use href="./images/icons.svg#icon-sobre-activable"></use>
-              </svg>
+              </svg> 
             </div>
-        
             <div class="contacts-top">
               <p class="contacts-top phone-contact">+52 55 5529 6000</p>
               <svg class="icon5" width="10" height="16">
                 <use href="./images/icons.svg#icon-telfono-inteligente"></use>
               </svg>
-             
+            
             </div>
-          </header>
+          </div>
+        </div>
+      </header>
         <section class="form-section">
             <div class="form-container">
                 <div class="otherr">
@@ -64,12 +69,30 @@
                     <h2 class="center-tittle"> Deje sus datos, nos contactaremos con usted</h3>
 
                     <div class="newwcontainer">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" id="nombre" name="Nombre" autofocus>
-                        <label for="telefono">Teléfono</label>
-                        <input type="tel" id="telefono" name="Telefono">
+                        <label class="yyy"for="nombre">Nombre </label>
+                          <svg class="icons-form" width="13" height="13">
+                            <use href="./images/icons.svg#icon-icon-nombre"></use>
+                          </svg>
+                        
+                      
+                        <input type="text" id="nombre" name="Nombre" autofocus placeholder="hola">
+                        <!-- <svg class="icons-form" width="13" height="13">
+                    
+                          <use href="./images/icons.svg#icon-icon-nombre"></use>
+                        </svg> -->
+                        <label for="telefono" >Teléfono </label>
+                        <input  type="tel" id="telefono" name="Telefono" placeholder="hola">
+                        
+                          <svg class="icons-form-tel" width="13" height="13">
+                            <use href="./images/icons.svg#icon-icon-telefono"></use>
+                          </svg>
+                        
                         <label for="correo">E-mail</label>
-                        <input type="text" id="correo" name="Correo">
+                        <input type="text" id="correo" name="Correo" placeholder="hola">
+                        <svg class="icons-form-email" width="13" height="13">
+                    
+                          <use href="./images/icons.svg#icon-mail-form"></use>
+                        </svg>
                         
                         <div class="container-comments">
                             <label for="comentarios"> Comentarios</label>
@@ -88,7 +111,9 @@
             </div>
 
         </section>
-          <footer class="bottom-box">
+        <footer class="bottom-box">
+    
+          <div class="container-bottom-box">
             <div class="direction-footer"><a class="logos-page " href="http://">
                 <h3 class="logos-gap">WebStudio</h3>
               </a>
@@ -99,9 +124,7 @@
             <div class="alighing">
               <h4 class="font-bottom-en">ENCUENTRENOS EN</h4>
               <!-- This is an SVG sprite that we added in its entirety and hidden visually. -->
-             
-        
-        
+            
               <div class="newalign">
                 <div class="circular-container">
                   <svg class="icon" width="20" height="20">
@@ -109,38 +132,41 @@
                     <use href="./images/icons.svg#icon-instagram22"></use>
                   </svg>
                 </div>
-        
                 <div class="circular-container">
-        
                   <svg class="icon" width="20" height="20">
                     <!-- tamaño de la ventana de visualizacion se ajusta en view box y aca se modifica el tamaño de el svg-->
                     <use href="./images/icons.svg#icon-twitter22"></use>
                   </svg>
-        
                 </div>
-        
                 <div class="circular-container">
-        
                   <svg class="icon" width="20" height="20">
                     <!-- tamaño de la ventana de visualizacion se ajusta en view box y aca se modifica el tamaño de el svg-->
                     <use href="./images/icons.svg#icon-facebook22"></use>
                   </svg>
-        
                 </div>
-        
                 <div class="circular-container">
-        
                   <svg class="icon" width="20" height="20">
                     <!-- tamaño de la ventana de visualizacion se ajusta en view box y aca se modifica el tamaño de el svg-->
                     <use href="./images/icons.svg#icon-linkedin22"></use>
                   </svg>
-        
                 </div>
               </div>
-        
-        
             </div>
+            <div class="boletin"> 
+                      <div>
+                              <h4>SUSCRÍBASE al boletín informativo </h4> 
+                              <label for="email-subscribe" ></label>
+                            <input type="text" id="email-subscribe" name="Correo" placeholder="Correo electrónico">
+                      </div >
+                        <button class="submit-button" type="submit"> Suscríbase <svg class="icon-button-footer" width="24" height="25">
+                          <use href="./images/icons.svg#paper-plane"></use>
+                        </svg>
+                      </button>
+            </div>
+          </div>
+          
         
-          </footer>
+    
+      </footer>
     </body>
 </html>
